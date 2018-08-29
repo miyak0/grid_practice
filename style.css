@@ -1,0 +1,109 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: grid;
+  background: #eee;
+  grid-template-rows: 80px 200px 200px 200px 80px;
+  grid-template-columns:1fr 200px 200px 200px 200px 1fr;
+  grid-gap: 20px;
+  /* grid-template: 
+  "header header header" 
+  "main   main   main" 100px
+  "main   main   main" 100px
+  "main   main   main" 100px
+  "footer footer footer"  
+  / 1fr 1fr 100px; */
+}
+.grid-item-1 {
+  background: hsl(190, 50%, 40%); /* 色相・彩度・輝度（キド）*/
+  grid-column: 1 / 7;
+  text-align: center;
+  /* grid-area: header; */
+}
+.grid-item-2 {
+  /* background: hsl(190, 50%, 50%); 色相・彩度・輝度（キド） */
+  /* grid-area: main; */
+}
+.grid-item-3 {
+  background: hsl(190, 100%, 10%); /* 色相・彩度・輝度（キド）*/
+  /* grid-area: main; */
+}
+.grid-item-4 {
+  background: hsl(190, 100%, 20%);
+  /* grid-area: main; */
+
+}
+.grid-item-5 {
+  background: hsl(190, 100%, 30%);
+  /* grid-area: main; */
+
+}
+.grid-item-6 {
+  background: hsl(190, 100%, 40%);
+  /* grid-area: main; */
+
+}
+.grid-item-7 {
+  /* background: hsl(190, 50%, 40%); 色相・彩度・輝度（キド） */
+    /* grid-area: main; */
+
+}
+.grid-item-8 {
+  /* background: hsl(190, 50%, 50%);  */
+    /* grid-area: main; */
+
+}
+.grid-item-9 {
+  background: hsl(250, 100%, 10%);
+    /* grid-area: main; */
+
+}
+.grid-item-10 {
+  background: hsl(250, 100%, 20%);
+    /* grid-area: main; */
+
+}
+.grid-item-11 {
+  background: hsl(250, 100%, 30%);
+    /* grid-area: main; */
+
+}
+.grid-item-12 {
+  background: hsl(250, 100%, 40%);
+    /* grid-area: main; */
+
+}
+.grid-item-13 {
+  /* background: hsl(190, 50%, 40%); 色相・彩度・輝度（キド） */
+    /* grid-area: main; */
+}
+.grid-item-14 {
+  /* background: hsl(190, 50%, 40%); 色相・彩度・輝度（キド） */
+    /* grid-area: main; */
+}
+.grid-item-15 {
+  background: hsl(90, 100%, 10%); /* 色相・彩度・輝度（キド）*/
+    /* grid-area: main; */
+}
+.grid-item-16 {
+  background: hsl(90, 100%, 20%); /* 色相・彩度・輝度（キド）*/
+    /* grid-area: main; */
+}
+.grid-item-17 {
+  background: hsl(90, 100%, 30%); /* 色相・彩度・輝度（キド）*/
+  /* grid-area: footer; */
+}
+.grid-item-18 {
+  background: hsl(90, 100%, 40%); /* 色相・彩度・輝度（キド）*/
+  /* grid-area: footer; */
+}
+.grid-item-19 {
+  background: hsl(190, 50%, 50%); /* 色相・彩度・輝度（キド）*/
+  grid-column: 1 / 7;
+  /* grid-area: footer; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
