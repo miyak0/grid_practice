@@ -1,2 +1,2 @@
 # grid_practice
-Grid layoutの練習
+Grid layoutとjQueryの練習
